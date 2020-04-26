@@ -43,7 +43,7 @@ Read the complete breaking changes list carefully.
 
 ### highlight.js lib on the client, with source directly from our GitHub repo
 
-That will no longer work. The source needs to be built to work properly and cannot be used "raw" unless you've also setup your own build pipeline (rollup, etc.).  Fetch a static build from the CDN, the [cdn-release repo](https://github.com/highlightjs/cdn-release) or use the new [`highlightjs-dist`]() NPM package.
+That will no longer work. The source needs to be built to work properly and cannot be used "raw" unless you've also setup your own build pipeline (rollup, etc.).  Fetch a static build from the CDN, the [cdn-release repo](https://github.com/highlightjs/cdn-release) or use the new [`@highlightjs/cdn-assets`](https://www.npmjs.com/package/@highlightjs/cdn-assets) NPM package.
 
 ### highlight.js source code directly from our GitHub repo with a custom integration
 
